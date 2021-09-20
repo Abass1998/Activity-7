@@ -1,0 +1,449 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+  }
+.navigation-bar{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.services-type{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+.svg-picture{
+    width: 70px;
+    height: 70px;
+}
+.hero-section{
+    background-image: url(img/hero-bg.jpg);
+    color: white;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 13% 10%;
+}
+.wrapper{
+    /* border: 2px solid black; */
+    margin-top: 7rem;
+}
+.services{
+    font-size: 5rem;
+    letter-spacing: .8rem;
+}
+.repair{
+    letter-spacing: .5rem;
+    line-height: 5rem;
+    width: 40%;
+    margin-bottom: 3rem;
+}
+.line{
+    /* border: 2px solid black;  */
+    background-color: white;
+    width: 50%;
+    height: 2vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.description{
+    margin-top: 2rem;
+}
+.our-services{
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 4% 0;
+    background-color: #f2f2f2;
+}
+.we-specialize{
+    /* border: 2px solid black; */
+    width: 40%;
+    line-height: 2rem;
+    margin: 0 auto;
+}
+.service-book{
+    /* border: 2px solid black; */
+    background-color: #e71a23;
+    cursor: pointer;
+    width: 10rem;
+    margin: 0 auto;
+    line-height: 3rem;
+    margin-top: 3rem;
+}
+.distance{
+    margin-top: 1.8rem;
+    margin-bottom: 3rem;
+}
+.third-section{
+    /* border: 2px solid black; */
+    margin-top: 4rem;
+}
+ .third-section-left{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 4rem;
+}
+.third-section-right{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 6rem;
+}
+.planning{
+    /* border: 2px solid black; */
+    width: 25%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+   position: relative;
+   right: 5rem;
+    display: flex;
+    line-height: 1.5;
+    flex-direction: column;
+    justify-content: flex-end;
+}  
+.need-help{
+    /* border: 2px solid black; */
+    margin-top: 3rem;
+    padding-left: 4%;
+    line-height: 3rem;
+}
+.best-quality{
+/* border: 2px solid black; */
+background-color: #dad8dd;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+.quality-picture{
+    /* border: 2px solid black; */
+    width: 40%;
+}
+.quality-description{
+    width: 40%;
+    margin-left: 3rem;
+    /* border: 2px solid black; */
+}
+.best{
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #104e92;
+}
+.company{
+    /* border: 2px solid black; */
+    width: 70%;
+    line-height: 1.5;
+}
+.divide{
+    /* border: 2px solid black; */
+    height: 2vh;
+    background-color: #e71a23;
+    width: 90%;
+    margin: 3rem 0;
+}
+.now-book{
+    /* border: 2px solid black; */
+    width: 10rem;
+   text-align: center;
+   background-color: #e71a23;
+   padding: 1.5%;
+   cursor: pointer;
+   margin-top: 3rem;
+}
+.our-service{
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: 0 auto;
+   padding-top: 3%;
+}
+.our-service h1{
+    /* border: 2px solid black; */
+    width: 80%;
+    font-size: 3rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.tools{
+    width: 70px;
+    height: 70px;
+}
+.tool-wrapper{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.sub-tool-wrapper h3{
+    /* border: 2px solid black; */
+   margin: 2rem 0;
+}
+.sub-tool-wrapper p{
+   width: 80%;
+}
+.serve{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding: 0 3%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.gallery{
+    /* border: 2px solid black; */
+    display: flex;
+}
+.gallery div{
+    width: 100%;
+}
+.galler-wrapper{
+    width: 100%;
+}
+.about-us{
+    width: 100%;
+}
+.about-us h1{
+   font-size: 3rem;
+   line-height: 1.5;
+}
+.to-the-right{
+    margin-left: 2rem;
+}
+.gallery-right{
+    margin-top: 2rem;
+}
+.plumbing{
+    letter-spacing: .6rem;
+}
+.serve-wrapper{
+    /* border: 2px solid red; */
+    background-color:#104e92 ;
+    color: white;
+    padding: 4% 0;
+    margin: 4rem 0;
+}
+.last-section{
+    /* border: 2px solid black; */
+    padding: 3% 0;
+    text-align: center;
+    line-height: 1.5;
+}
+.last-section h1{
+    /* border: 2px solid black; */
+    width: 50%;
+    margin: 0 auto;
+}
+.last-para{
+    /* border: 2px solid black; */
+    word-spacing: .2rem;
+    letter-spacing: 2;
+    line-height: 1.5;
+    width: 40%;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+.footer-cta{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+.footer-cta p{
+    border: 2px solid black;
+    padding: 1.5%;
+    text-align: center;
+    width: 10rem;
+    margin-left: 2rem;
+}
+.footer{
+    /* border: 2px solid black; */
+    color: white;
+    background-color: #333333;
+    padding: 3% 0%;
+    text-align: center;
+    margin-top: 3rem;
+}
+.website-builder{
+    margin-top: 6rem;
+}
+
+@media screen and (max-width: 1050px){
+.third-section-left{
+    flex-direction: column;
+    position: relative;
+    top: 0rem;
+}
+.third-section-right{
+    flex-direction: column;
+    position: relative;
+    top: 0rem;
+    width: 80%;
+    margin: 0 auto;
+}
+.planning{
+    width: 60%;
+    line-height: 1.5;
+    right: 0rem;
+    margin-top: 1rem;
+}  
+.need-help{
+    padding-left: 0%;
+    line-height: 1.5;
+}
+.serve{
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width: 850px){
+    .hero-section{
+        background-image: url(img/hero-bg.jpg);
+        background-size: cover;
+        color: white;
+        background-position: center right;
+        padding-top: 50%;
+    }
+   .services-type{
+       display: none;
+   }
+   .repair{
+    letter-spacing: .3rem;
+    line-height: 3rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.services{
+    font-size: 3rem;
+    letter-spacing: .8rem;
+}
+.line{
+    width: 90%;
+    height: 1.5vh;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.best-quality{
+    flex-direction: column;
+    padding-top: 4%;
+    padding-bottom: 8%;
+}
+.quality-picture{
+    width: 100%;
+}
+.quality-picture img{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.best{
+    margin-top: 4rem;
+    font-size: 2.5rem;
+}
+.quality-description{
+   width: 90%;
+   margin: 0 auto;
+}
+.company{
+   width: 80%;
+   line-height: 2;
+}
+.divide{
+    width: 80%;
+    height: 1.5vh;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.now-book{
+    /* margin: 0 auto; */
+    margin-top: 3rem;
+}
+.tool-wrapper{
+    flex-direction: column;
+}
+.sub-tool-wrapper h3{
+   margin: 1rem 0;
+}
+.tools{
+    margin-top: 2rem;
+}
+.last-section{
+    padding: 3% 0;
+    text-align: center;
+    line-height: 1.5;
+}
+.last-section h1{
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: 0 auto;
+}
+.last-para{
+    width: 80%;
+}
+.footer-cta{
+    width: 80%;
+    margin-top: 2rem;
+}
+.footer-cta p{
+    width: 12rem;
+}
+.footer{
+    color: white;
+    background-color: #333333;
+    padding: 3% 0%;
+    text-align: center;
+    margin-top: 3rem;
+}
+.footer p{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.website-builder{
+    margin-top: 6rem;
+}
+
+}
+@media screen and (max-width: 700px){
+   .gallery{
+    flex-direction: column;
+}
+.to-the-right{
+    margin-left: 0rem;
+}
+.gallery-right{
+    margin-top: 0rem;
+}
+.gallery div{
+    margin-top: 2rem;
+}
+.footer-cta{
+   flex-direction: column;
+}
+.footer-cta p{
+    width: 12rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+}
